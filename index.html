@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    	<!--estilos-->
+    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    	<link rel="stylesheet" href="css/main.css">
+
+    	<!--fonts-->
+    	<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    	<!--scripts-->
+    	<script src="js/jquery-3.6.0.slim.min.js"></script>
+    	<script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    	<script src="js/main.js"></script>
+
+			<script src="https://unpkg.com/scrollreveal"></script>
+
+
+    	<title>Kanok Laboratorios Medicos</title>
+	</head>
+	<body>
+
+    	<!--cabezera-->
+    	<header>
+
+
+        	<nav class="navbar navbar-expand-lg navbar-light bg-white shadow  bg-white rounded">
+            	<a class="navbar-brand" href="index.html">
+            		<img src="static/img/kanok.jpeg" class="img-fluid" width="200">
+            	</a>
+            	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             	 <span class="navbar-toggler-icon"></span>
+            	</button>
+            	<div class="collapse navbar-collapse" id="navbarNav">
+              		<ul class="navbar-nav ml-auto">
+
+                		<li class="nav-item active">
+                  			<a class="nav-link" href="index.html">Inicio</a>
+                		</li>
+
+
+               			 <li class="nav-item">
+                  			<a class="nav-link" href="templates/quienes-somos.html" id="quienes-somos">Quienes Somos</a>
+                		</li>
+
+
+                		<li class="nav-item">
+                  			<a class="nav-link" href="templates/Estudios.html">
+                  				Estudios
+                  			</a>
+                		</li>
+
+
+                		<li class="nav-item">
+                 			<a class="nav-link" href="templates/servicio-a-empresas.html" id="empresas">Servicio a Empresas</a>
+                		</li>
+
+
+
+
+                		<li class="nav-item">
+                 			<a class="nav-link" href="https://www.facebook.com/kanoklab/" target="_blank" id="contacto">Contacto</a>
+                		</li>
+
+
+              		</ul>
+            	</div>
+          	</nav>
+
+        </header>
+
+
+        <!--banner-->
+        <div class="banner">
+  			<div class="background-overlay">
+  				<div class="container">
+    				<div class="row">
+
+    					<!--texto-->
+    					<div class="col" id="un-diagnostico-temprano">
+    						<h1 class="font-weight-light text-center">
+    							Un diagnostico temprano puede hacer la diferencia<br>
+    							<a href="" class="btn bg-pink btn" > Haz tu Cita </a>
+    						</h1>
+    					</div>
+
+    					<!--imagen-->
+    					<div class="col-md-4">
+    						<img src="static/img/doctora 2.png" class="img-fluid" width="400">
+    					</div>
+    				</div>
+  				</div>
+
+  			</div>
+  		</div>
+
+
+
+
+		<!--productos del covid-->
+		<section class="covid mt-5">
+			<div class="container">
+				<h1 class="font-weight-lighter text-center">
+					Estudios Covid
+				</h1>
+
+
+				<!--buscador de estudios-->
+				<input
+				type="text"
+				class="form-control mt-3 mb-4"
+				id="search"
+				placeholder="¿Que estudio estas buscando?">
+
+				<div id="resultados">
+
+
+				</div>
+
+			</div>
+		</section>
+
+
+		<!--promociones-->
+		<section id="carrusel">
+			<h1 class="text-center font-weight-lighter">Promociones del Mes</h1>
+
+			<div class="container">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+
+				    <div class="carousel-item active">
+				      	<img src="static/img/covid.jpeg" class="d-block img-fluid" alt="descuento 1" width="500">
+				    </div>
+
+
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</section>
+
+
+		<footer>
+			<div class="jumbotron jumbotron-fluid">
+				<div class="container">
+					<p class="text-center font-weight-lighter">
+						<img
+						src="static/img/kanok.jpeg"
+						alt="kanok laboratorios medicos"
+						class="img-fluid"
+						width="100">
+						&copy Kanok Laboratorios Médicos 2021
+					</p>
+				</div>
+			</div>
+		</footer>
+
+    </body>
+</html>

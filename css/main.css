@@ -1,0 +1,82 @@
+/*colors*/
+
+.bg-white{
+	background: white;
+}
+
+
+.bg-pink{
+	background: #DB7093;
+	color: white;
+}
+
+
+/* styles of banner */
+.banner{
+	background: url(../static/img/covid.jpg);
+}
+
+
+.background-overlay{
+	background: rgba(223, 230, 233,0.8);
+}
+
+
+#un-diagnostico-temprano h1{
+	font-size: 50px;
+	margin-top: 15%;
+}
+
+
+#un-diagnostico-temprano a{
+	font-size: 20px;
+}
+
+/*boton de haz tu cita*/
+#un-diagnostico-temprano a:hover{
+	color: #DB7093;
+	background: rgba(223, 230, 233,0.7);
+	border-color: #DB7093;
+}
+
+#carrusel{
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+
+
+
+
+/*styles of covid section*/
+.covid{
+	margin-bottom: 3%;
+}
+
+
+.covid a{
+	text-align: center;
+	background: #DB7093;
+	color: white;
+}
+
+.covid a:hover{
+	background: white;
+	color: #DB7093;
+	border-color: #DB7093;
+}
+
+
+/*styles of footer*/
+footer{
+	margin-bottom: -2%;
+}
+
+
+
+
+
+
+/* responsive styles*/
+@media screen and(max-width: 360){
+
+}
